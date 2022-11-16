@@ -1,0 +1,16 @@
+.styledA {
+    margin-left: 50px;
+    width: 330px;
+    color: var(--mainWhite);
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 1px solid var(--mainWhite);
+    transition: 0.25s;
+    text-transform: capitalize;
+}
+
+.styledA:hover {
+    background-color: var(--mainOrange);
+    color: var(--mainWhite);
+    border: 1px solid var(--mainOrange);
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=M+PLUS+Code+Latin&family=Montserrat:wght@200;400;500;600&family=Poppins:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: "Source Code Pro",
+        sans-serif;
+}
+
+nav {
+    width: 90%;
+    height: 50px;
+    transition: ease 0.5s;
+}
+
+.scrolled {
+    background-color: var(--mainOrange);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: none;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Source Code Pro", sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: var(--mainOrange);
+    color: var(--mainWhite)
+}

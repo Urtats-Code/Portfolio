@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.pHobbies {
+    font-size: large;
+    text-transform: none;
+    width: 70%;
+    padding-left: 50px;
+    text-align: justify;
+    display: block;
+}
+
+span {
+    color: var(--mainOrange)
+}

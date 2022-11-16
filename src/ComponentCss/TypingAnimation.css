@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=M+PLUS+Code+Latin&family=Montserrat:wght@200;400;500;600&family=Poppins:wght@200;600&display=swap');
+
+section {
+    display: inline-flex;
+    color: var(--mainOrange);
+    font-family: 'Fira Code', sans-serif;
+    height: 4em;
+    gap: 30px;
+}
+
+section div {
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+section .dinamicText {
+    margin: 0;
+    line-height: 65px;
+    overflow: hidden;
+}
+
+.text {
+    font-weight: 600;
+}

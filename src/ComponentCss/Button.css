@@ -1,0 +1,24 @@
+.button {
+    border-radius: none;
+    border: 1px solid var(--mainWhite);
+    color: var(--mainWhite);
+    width: 200px;
+    height: 60px;
+    font-size: 1em;
+    display: inline-block;
+    box-shadow: inset 0 0 0 0 var(--mainWhite);
+    background-color: var(--mainDark);
+    transition: ease-in-out 0.25s;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: var(--mainOrange);
+    color: var(--mainDark);
+    border: 2px solid var(--mainOrange);
+    cursor: pointer;
+}
